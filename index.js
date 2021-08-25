@@ -23,4 +23,3 @@ const deHash = (str, sec) => {
 
 module.exports.hash = hash;
 module.exports.deHash = deHash;
-module.exports.genkey = genkey;
