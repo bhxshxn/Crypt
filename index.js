@@ -1,8 +1,6 @@
 const AES = require("crypto-js/aes");
 const CryptoJS = require("crypto-js");
 const key = AES.encrypt("verhardkey", '1').toString();
-var randomstring = require("randomstring");
-
 
 const hash = (str, sec) => {
     const mainString = AES.encrypt(str, key).toString();
@@ -21,10 +19,6 @@ const deHash = (str, sec) => {
     } else {
         return 'wrong key '
     }
-}
-
-const genkey = (length) => {
-    return randomstring.generate(length);
 }
 
 module.exports.hash = hash;

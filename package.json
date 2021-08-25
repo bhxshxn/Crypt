@@ -1,7 +1,29 @@
 {
   "dependencies": {
     "crypto-js": "^4.1.1",
-    "object-hash": "^2.2.0",
-    "randomstring": "^1.2.1"
-  }
+    "object-hash": "^2.2.0"
+  },
+  "name": "@bhxshxn/cryptjs",
+  "description": "THIS IS PACKAGE TO HASH AND UNHASH YOUR PASSWORDS OR ANY SECRET, IMPORTANT INFORMATION.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bhxshxn/Crypt.git"
+  },
+  "keywords": [
+    "hashing",
+    "password",
+    "authentication",
+    "key"
+  ],
+  "author": "bhxshxn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bhxshxn/Crypt/issues"
+  },
+  "homepage": "https://github.com/bhxshxn/Crypt#readme"
 }
