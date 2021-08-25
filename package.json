@@ -5,7 +5,7 @@
   },
   "name": "@bhxshxn/cryptjs",
   "description": "THIS IS PACKAGE TO HASH AND UNHASH YOUR PASSWORDS OR ANY SECRET, IMPORTANT INFORMATION.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
