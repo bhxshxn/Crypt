@@ -9,10 +9,10 @@ THIS IS PACKAGE TO HASH AND UNHASH YOUR PASSWORDS OR ANY SECRET, IMPORTANT INFOR
 # Examples
 ```
 to generate hash
-const crypt = require('crypt')
+const crypt = require('stringcryptjs')
 const hash = crypt.hash('plainText','secretkey')
 
 to dehash
-const crypt = require('crypt')
+const crypt = require('stringcryptjs')
 const dehash = crypt.deHash(hash,'secretkey')
 ```
