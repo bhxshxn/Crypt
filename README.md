@@ -14,5 +14,5 @@ const hash = crypt.hash('plainText','secretkey')
 
 to dehash
 const crypt = require('crypt')
-const dehash = crypt.deHash('hash','secretkey')
+const dehash = crypt.deHash(hash,'secretkey')
 ```

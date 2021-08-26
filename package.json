@@ -1,9 +1,8 @@
 {
   "dependencies": {
-    "crypto-js": "^4.1.1",
-    "object-hash": "^2.2.0"
+    "crypto-js": "^4.1.1"
   },
-  "name": "@bhxshxn/cryptjs",
+  "name": "cryptjs",
   "description": "THIS IS PACKAGE TO HASH AND UNHASH YOUR PASSWORDS OR ANY SECRET, IMPORTANT INFORMATION.",
   "version": "1.0.2",
   "main": "index.js",

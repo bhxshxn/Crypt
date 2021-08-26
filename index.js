@@ -17,6 +17,7 @@ const deHash = (str, sec) => {
     if (originalSec === sec) {
         return originalText;
     } else {
+        console.log(originalSec)
         return 'wrong key '
     }
 }
