@@ -1,10 +1,10 @@
 # what is it?
 
-THIS IS PACKAGE TO HASH AND UNHASH YOUR PASSWORDS OR ANY SECRET, IMPORTANT INFORMATION.
+THIS IS PACKAGE TO HASH AND UNHASH YOUR PASSWORDS OR ANY SECRET, IMPORTANT Strings.
 
 # Installation 
 
-`npm install @bhxshxn/cryptjs`
+`npm install stringcryptjs`
 
 # Examples
 ```
